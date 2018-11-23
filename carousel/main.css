@@ -1,0 +1,69 @@
+.slide {
+    position: relative;
+    width: 590px;
+    margin: 0 auto;
+}
+
+.slide-image {
+    display: none;
+}
+
+.active {
+    display: inline-block;
+}
+
+.slide-button {
+    height: 40px;
+    width: 30px;
+    color: white;
+    background: grey;
+    opacity: 0.3;
+    border: none;
+    cursor: pointer;
+}
+
+.slide-button:hover {
+    background: black;
+}
+
+.slide-button:focus {
+    outline: none;
+}
+
+.left {
+    left: 0;
+}
+.right {
+    right: 0;
+}
+
+/*
+用来垂直居中一个元素 css
+*/
+
+.vertical-center {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.slide-indi {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: red;
+    cursor: pointer;
+}
+
+.white {
+    background: white;
+}
+
+.slide-indicators {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
