@@ -9,3 +9,5 @@
 
 ## spider
 原生javascript写的爬虫
+client.js 模仿浏览器发送请求，接收响应并处理。
+爬取douban-top250
